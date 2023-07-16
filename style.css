@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+/* font-family: 'League Spartan', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+/* paste color: "#088178" 
+background-color: "#E3E6F3"*/
+
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+.smaller-text {
+    font-size: 12px;
+}
+.btn-styled {
+    background-color: #088178;
+    color: #fff;
+}
+.btn-styled2{
+    border: 1px solid #088178;
+    background-color: white;
+    color: #088178;
+}
+.highlighted-text{
+    color: #088178!important;
+}
+
+/* header section starts here */
+#header {
+    background-color: #088178;
+}
+.flag-icon {
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 50%;
+}
+.flag-icon-us {
+    background-image: url('images/us\ flag.png');
+}
+.flag-icon-bd {
+    background-image: url('images/bd\ flag.png');
+}
+/* header section ends here */
+
+
+/* navbar section starts here */
+.extra-margin {
+    margin: 150px 0;
+}
+#nav-section{
+    background-color: #E3E6F3;
+}
+.form-control::placeholder {
+    font-size: 12px;
+}
+.input-group input {
+    background-color: #E3E6F3;
+}
+.nav-item a{
+    transition: 0.3s ease;
+}
+.nav-item a:hover{
+    color: #088178!important;
+    font-weight: bold;
+}
+/* navbar section ends here */
+
+.carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#about i{
+    color: #088178;
+}
+
